@@ -8,12 +8,10 @@ function Shortener(string) {
             newStr = short(str, newStr)
         }
     }
-
     function short(char, string) {
         return string.replaceAll(char + char, '')
     }
-
-    return newStr
+    return newStr || 'empty string'
 }
 
 console.log(Shortener('aab'))
