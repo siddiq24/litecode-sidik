@@ -16,4 +16,8 @@ function Shortener(string) {
     return newStr
 }
 
-console.log(Shortener('aaabbabaccaccaabbbab'))
+console.log(Shortener('aab'))
+console.log(Shortener('aaabba'))
+console.log(Shortener('aabb'))
+console.log(Shortener('aaa'))
+console.log(Shortener('aaabccddd'))
